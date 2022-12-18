@@ -33,10 +33,15 @@ body {
 }
 
 .container .language-wrapper a {
+    text-transform: uppercase;
     text-decoration: none;
     color: #fff;
 }
 
 .language-wrapper a:hover {
     background-color: #777;
+}
+
+a .active {
+    background-color: #f00;
 }
